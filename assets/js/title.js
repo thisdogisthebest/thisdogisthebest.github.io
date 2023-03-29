@@ -7,7 +7,7 @@ function sleep(ms) {
 async function change() {
   while (true) {
     document.title = titles[Math.floor(Math.random()*titles.length)]
-    await sleep(100)
+    await sleep(1000)
   }
 }
 
